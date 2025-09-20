@@ -87,7 +87,7 @@ public class SecretSharing {
 
         for (String file : args) {
             BigInteger secret = processFile(file);
-            System.out.println(file + ": " + secret);
+            System.out.println(secret);
         }
     }
 
